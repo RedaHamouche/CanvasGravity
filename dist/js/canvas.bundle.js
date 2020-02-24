@@ -133,6 +133,9 @@ addEventListener("resize", function () {
   canvas.width = innerWidth;
   canvas.height = innerHeight;
   init();
+});
+addEventListener("click", function () {
+  animate();
 }); // Objects
 
 var Ball =

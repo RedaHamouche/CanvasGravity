@@ -37,6 +37,10 @@ addEventListener("resize", () => {
   init();
 });
 
+addEventListener("click", () => {
+  animate();
+});
+
 // Objects
 class Ball {
   constructor(x, y, dx, dy, radius, color) {
